@@ -1,0 +1,514 @@
+@font-face {
+  font-family: 'Samsung Sharp Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Samsung Sharp Sans Bold'), url('C:\Users\prave\praveen-nathan\src\Component\Font\SamsungSharpSans-Bold.ttf') format('woff');
+  }
+ 
+  @font-face {
+    font-family: 'SamsungOne 400';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungOne 400'), url('C:\Users\prave\praveen-nathan\src\Component\Font\SamsungOne-400.ttf') format('woff');
+    }
+ *
+ {
+   font-family: Samsung Sharp Sans Bold;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+ }
+ body{
+   background-color: black;
+ }
+ p
+ {
+  font-family: 'SamsungOne 400';
+ }
+ .navbar
+ {
+   background-color: transparent;
+   position: fixed;
+   z-index: 1;
+   top:0px;
+   width:100%;
+   background-color:black;
+   
+ }
+ nav
+ {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .nav-item:nth-child(3),.nav-logo
+ {
+   font-size: 30px;
+   
+ }
+ .nav-item:nth-child(3) span,.nav-logo span
+ {
+   color: yellowgreen;
+   
+ }
+ .nav-logo
+ {
+   display: none;
+ }
+ .nav-item
+ {
+   list-style-type: none;
+   margin: 0px 70px;
+   transition: 1s ease-in-out;
+   
+ }
+ .nav-link
+ {
+   text-decoration: none;
+   color: white;
+ }
+ .menu-bar
+ {
+   color: black;
+   position: absolute;
+   right:20px;
+   top:8px;
+   font-size: 35px;
+   display: none;
+   color:white;
+   
+ }
+ #home
+ {
+   background: url("C:\Users\prave\praveen-nathan\src\Component\Images\desktop.jpg") no-repeat;
+   background-size: cover;
+   width:100%;
+   height: 800px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+ .home-content
+ {
+   color:white;
+   font-size: 3em;
+ }
+ #aboutme
+ {
+   background-color: black;
+   width:100%;
+ }
+ .abtme-content
+ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   color:white;
+   flex-direction: row;
+   padding: 50px;
+   height: 600px;
+ }
+ .abtme-content h1
+ {
+  font-size: 4vw;
+ }
+ .abtme-head
+ {
+   max-width: 700px;
+ }
+ .abtme-image img
+ {
+   width:300px;
+   height: 400px;
+ }
+ .resume-btn,.pf-btn
+ {
+   text-decoration: none;
+   transition: .5s ease-in-out;
+   color: white;
+   border: 2px solid white;
+   padding: 10px 60px;
+ }
+ .resume-btn:hover
+ {
+   background-color: white;
+   color:black;
+ }
+ #Skills
+ {
+   height: auto;
+   line-height: 60px;
+   
+ }
+ .skill-c
+ {
+   color: white;
+   margin: 0px 100px;
+ }
+ .skill-progressbar
+ {
+   background-color: rgb(43, 41, 41);
+   max-width:100%;
+   height: 10px;
+   overflow: hidden;
+   position: relative;
+   border-radius: 20px;
+ }
+ .s-per
+ {
+   position:absolute;
+   right:100px
+ }
+ .skill-heading,.pf-title,.contact-title,.mw-title
+ {
+   color: white;
+   text-align: center;
+   font-size: 4vw;
+   margin: 30px;
+ }
+ .pb-c
+ {
+   background-color:dodgerblue ;
+   height: 20px;
+ }
+ #portfolio
+ {
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+ }
+ .pf-title,.mw-title,.contact-title
+ {
+   margin: 100px;
+ }
+
+ .pf-btn
+ {
+   color:black;
+   border: 2px solid black;
+   transition: .5s ease-in-out;
+ }
+ .pf-btn:hover
+ {
+   background-color: black;
+   color: white;
+
+ }
+ .pf-image1,.pf-image2,.pf-image3
+ {
+   width:450px;
+   height: 450px;
+ }
+ .pf-image1
+ {
+  background:url("C:\Users\prave\praveen-nathan\src\Component\Images\html.png")no-repeat;
+  background-size: cover;
+ }
+ .pf-image2
+ {
+  background:url("C:\Users\prave\praveen-nathan\src\Component\Images\css.jpg")no-repeat;
+  background-size: cover;
+ }
+ .pf-image3
+ {
+  background:url("C:\Users\prave\praveen-nathan\src\Component\Images\verctor.jpg")no-repeat;
+  background-size: cover;
+ }
+
+ .pf-data
+ {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   overflow: hidden;
+   margin-bottom: 100px;
+   font-family: 'SamsungOne 400';
+ }
+ .pf-c
+ {
+   background-color:ghostwhite;
+   width:450px;
+   height: 450px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   padding: 20px;
+   font-family: 'SamsungOne 400';
+ }
+ .website-title
+ {
+   background-color: ghostwhite;
+   color:black;
+   height: 300px;
+ }
+
+ #mywork
+ {
+   height: auto;
+ }
+ .mw-image
+ {
+  
+   width:300px;
+   height:400px;
+   margin: 20px;
+   position: relative;
+   overflow: hidden;
+   transition: 1s ease-in-out;
+ }
+ .mw-image:nth-child(1)
+ {
+  background: url("C:\Users\prave\praveen-nathan\src\Component\Images\website.jpg")no-repeat;
+  background-size: cover;
+ }
+
+ .mw-image:nth-child(2)
+ {
+  background: url("C:\Users\prave\praveen-nathan\src\Component\Images\uiux.jpg")no-repeat;
+  background-size: cover;
+ }
+
+ .mw-image:nth-child(3)
+ {
+  background: url("C:\Users\prave\praveen-nathan\src\Component\Images\ui.jpg")no-repeat;
+  background-size: cover;
+ }
+ .mw-image:hover .mw-head
+ {
+   height: 100%;
+
+ }
+ .mw-c
+ {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .mw-head
+ {
+  position: absolute;
+  width:100%;
+  height: 0px;
+  background-color:rgb(9, 66, 187);
+  display: flex;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transition: 1s ease-in-out;
+  overflow: hidden;
+ }
+ 
+ .cc
+ {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin: 20px;
+ }
+
+ button[type="submit"]
+ {
+   width:100%;
+  border: none;
+   background-color: dodgerblue;
+   color:white;
+   padding: 10px;
+   cursor: pointer;
+ }
+ input[type="text"]
+ {
+   width:50%;
+ }
+ input[type="text"],input[type="email"],textarea
+ {
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: black;
+  border: 2px solid rgb(85, 84, 84);
+  color:white;
+ }
+ input[type="email"],textarea
+ {
+   width:100%;
+ }
+.contact-c,.contact-details
+{
+  background-color: rgb(53, 51, 51);
+  width:450px;
+  height: 400px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.contact-details
+{
+  flex-direction: column;
+  background-color: ghostwhite;
+}
+
+#footer
+{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  text-align: center;
+  line-height: 40px;
+  padding-top: 200px;
+  
+}
+
+.f-icon 
+{
+  line-height: 100px;
+}
+.f-icon a
+{
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  margin: 20px;
+  
+}
+ @media screen and (max-width:950px)
+ { 
+  .pf-image1,.pf-image2,.pf-image3,.pf-c
+  {
+    width:350px;
+    height: 350px;
+  }
+  .home-content
+  {
+    font-size: 2em;
+  }
+  
+ }
+ @media screen and (max-width:600px)
+ {
+  .home-content
+  {
+    font-size: 1.5em;
+  }
+
+   .abtme-image img
+   {
+     width:200px;
+     height: 300px;
+   }
+ 
+ .skill-heading,.pf-title,.contact-title,.mw-title,.abtme-content h1
+   {
+     font-size: 30px;
+   }
+ }
+@media screen and (max-width:850px)
+{
+  .nav-item:not(.nav-item:nth-child(3))
+  {
+    margin-top: 60px;
+    display: block;
+  }
+  .nav-item:nth-child(3)
+  {
+    display: none;
+  }
+  .navbar-nav
+  {
+    flex-direction: column;
+  }
+  .nav-item
+  {
+    margin: 0px;
+  }
+  .navbar
+  {
+    overflow: hidden;
+    padding: 25px;
+  }
+  .nav-logo
+  {
+    position: absolute;
+    left:10px;
+    top:5px;
+    display: block;
+  }
+  .menu-bar
+  {
+    display: block;
+  }
+  #home
+  {
+    height: 400px;
+  }
+  
+  .abtme-content
+  {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+  .resume-btn
+  {
+    padding: 10px 20px;
+  }
+  .abtme-image
+  {
+    margin-top: 50px;
+  }
+  #Skills
+  {
+    height: auto;
+  }
+  .pf-image1,.pf-image2,.pf-image3,.pf-c
+  {
+    width:100%;
+    height: 350px;
+  }
+  .pf-image1,.pf-image2,.pf-image3
+  {
+    height: 200px;
+  }
+  .pf-content
+  {
+    margin: 20px;
+  }
+  .pf-data
+  {
+    flex-direction: column;
+  }
+  .pf-data:nth-child(2)
+  {
+    flex-direction: column-reverse;
+  }
+  .cc
+  {
+    flex-direction: column;
+  }
+  .contact-details
+  {
+    height: 300px;
+  }
+  .mw-c
+  {
+    flex-direction: column;
+  }
+  input[type="text"]
+  {
+    width: 100%;
+  }
+  .contact-c,.contact-details
+  {
+    max-width: 100%;
+  }
+}
