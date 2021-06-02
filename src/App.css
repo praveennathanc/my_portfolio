@@ -2,14 +2,15 @@
   font-family: 'Samsung Sharp Sans Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Samsung Sharp Sans Bold'), url('C:\Users\prave\praveen-nathan\src\Component\Font\SamsungSharpSans-Bold.ttf') format('woff');
+  src: local('Samsung Sharp Sans Bold'), url('https://github.com/praveennathanc/my_portfolio/src/Component/Font/SamsungSharpSans-Bold.ttf') format('woff');
   }
- 
+  
+  
   @font-face {
     font-family: 'SamsungOne 400';
     font-style: normal;
     font-weight: normal;
-    src: local('SamsungOne 400'), url('C:\Users\prave\praveen-nathan\src\Component\Font\SamsungOne-400.ttf') format('woff');
+    src: local('SamsungOne 400'), url('https://github.com/praveennathanc/my_portfolio/src/Component/Font/SamsungOne-400.ttf') format('woff');
     }
  *
  {
