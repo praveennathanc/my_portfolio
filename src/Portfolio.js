@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 function Portfolio() {
     return (
         <>
@@ -27,7 +28,7 @@ function Portfolio() {
                         <h1>UI Designs</h1>
                             <p>Here, I have developed UI Designs and Mockups for wesites</p>
                             <br/>
-                            <a href="#" className="pf-btn">View More</a>
+                            <a href="https://bumper-masters.000webhostapp.com/dummy.html" className="pf-btn" rel="noreferrer">View More</a>
                         </div>
 
                         <div className="pf-image2">
@@ -43,7 +44,7 @@ function Portfolio() {
                         <h1>Illustrations</h1>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                             <br/>
-                            <a href="#" className="pf-btn">View More</a>
+                            <a href="https://bumper-masters.000webhostapp.com/dummy.html" className="pf-btn" rel="noreferrer">View More</a>
                         </div>
                     </div>
                     </div>

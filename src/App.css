@@ -37,9 +37,7 @@
  }
  nav
  {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  text-align: center;
  }
  .nav-item:nth-child(3),.nav-logo
  {
@@ -60,6 +58,7 @@
    list-style-type: none;
    margin: 0px 70px;
    transition: 1s ease-in-out;
+   display: inline-block
    
  }
  .nav-link
