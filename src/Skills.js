@@ -10,10 +10,10 @@ function Skills() {
                 <div className="skill-c">
                 <h3>HTML & CSS</h3>
                     <div className="skill-progressbar">
-                        <div className="pb-c" style={{width:'80%'}}> 
+                        <div className="pb-c" style={{width:'90%'}}> 
                         </div>
                     </div>
-                    <p className="s-per">80%</p>
+                    <p className="s-per">90%</p>
                 </div>
 
                 <div className="skill-c">
@@ -27,11 +27,11 @@ function Skills() {
 
                 <div className="skill-c">
                     <h3>BOOTSTRAP</h3>
-                    <div className="skill-progressbar" style={{width:'80%'}}>
-                        <div className="pb-c"> 
+                    <div className="skill-progressbar" >
+                        <div className="pb-c" style={{width:'85%'}}> 
                         </div>
                     </div>
-                    <span className="s-per">80%</span>
+                    <span className="s-per">85%</span>
                 </div>
 
 

@@ -8,12 +8,13 @@ function Contact() {
                 <div className="cc">
                     <div className="contact-c">
                             <div className="msg-box">
-                                <form action="#">
-                                    <input type="text" placeholder="Enter Your First Name" required></input>
-                                    <input type="text" placeholder="Enter Your Last Name" required></input>
-                                    <input type="email" placeholder="Enter Your Email" required></input>
+                                <form action="mailto:cpnathan1991@gmail.com" method="post">
+                                    <input type="text" placeholder="Enter Your First Name" name="name" required></input>
+                                    <input type="text" placeholder="Enter Your Last Name" name="lastname" required></input>
+                                    <input type="email" placeholder="Enter Your Email"  name="emailid"required></input>
+                                    <input type="tel" placeholder="Enter Your Phone No" pattern="[0-9]{10}" name="Phone No" required></input>
                                     <br></br>
-                                    <textarea placeholder="Enter Your Message Here" required></textarea>
+                                    <textarea placeholder="Enter Your Message Here" required name="message"></textarea>
 
                                     <button type="submit">Submit</button>
                                 </form>

@@ -79,7 +79,7 @@
  }
  #home
  {
-   background: url("C:\Users\prave\praveen-nathan\src\Component\Images\desktop.jpg") no-repeat;
+   background: url("https://i.ibb.co/S0f2BXN/desktop.jpg") no-repeat;
    background-size: cover;
    width:100%;
    height: 800px;
@@ -203,17 +203,17 @@
  }
  .pf-image1
  {
-  background:url("C:\Users\prave\praveen-nathan\src\Component\Images\html.png")no-repeat;
+  background:url("https://i.ibb.co/zmdHD0h/Untitled-34.png")no-repeat;
   background-size: cover;
  }
  .pf-image2
  {
-  background:url("C:\Users\prave\praveen-nathan\src\Component\Images\css.jpg")no-repeat;
+  background:url("https://i.ibb.co/3y6WPx6/Pngtree-cartoon-vr-virtual-reality-universe-4119045.jpg")no-repeat;
   background-size: cover;
  }
  .pf-image3
  {
-  background:url("C:\Users\prave\praveen-nathan\src\Component\Images\verctor.jpg")no-repeat;
+  background:url("https://i.ibb.co/18w4qWN/raysoranges11.jpg")no-repeat;
   background-size: cover;
  }
 
@@ -263,19 +263,19 @@
  }
  .mw-image:nth-child(1)
  {
-  background: url("C:\Users\prave\praveen-nathan\src\Component\Images\website.jpg")no-repeat;
+  background: url("https://i.ibb.co/yd4GLJN/website.jpg")no-repeat;
   background-size: cover;
  }
 
  .mw-image:nth-child(2)
  {
-  background: url("C:\Users\prave\praveen-nathan\src\Component\Images\uiux.jpg")no-repeat;
+  background: url("https://i.ibb.co/Dr5h39F/uiux.jpg")no-repeat;
   background-size: cover;
  }
 
  .mw-image:nth-child(3)
  {
-  background: url("C:\Users\prave\praveen-nathan\src\Component\Images\ui.jpg")no-repeat;
+  background: url("https://i.ibb.co/RTpgRCD/ui.jpg")no-repeat;
   background-size: cover;
  }
  .mw-image:hover .mw-head
@@ -326,7 +326,7 @@
  {
    width:50%;
  }
- input[type="text"],input[type="email"],textarea
+ input[type="text"],input[type="email"],textarea,input[type="tel"]
  {
   margin-bottom: 30px;
   padding: 10px;
@@ -334,7 +334,7 @@
   border: 2px solid rgb(85, 84, 84);
   color:white;
  }
- input[type="email"],textarea
+ input[type="email"],textarea,input[type="tel"]
  {
    width:100%;
  }
